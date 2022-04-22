@@ -1,0 +1,24 @@
+{
+    "name": "dev/hexlet-php",
+    "description": "example package",
+    "autoload": {
+        "psr-4": {
+            "Dev\\HexletPhp\\": "src/"
+        },
+        "files": [
+            "src/Runner.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "denikeev",
+            "email": "script.edf@gmail.com"
+        }
+    ],
+    "require": {
+        "tightenco/collect": "^8.83"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    }
+}
